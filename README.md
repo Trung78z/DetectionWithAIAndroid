@@ -1,7 +1,10 @@
 # AI Vision Detector with Gemini AI
 
-<img src="screenshots/image.png" alt="Image Analysis Screenshot" width="300"/>
-<img src="screenshots/chat.png" alt="Chat Interface Screenshot" width="300"/>
+<div style="display: flex; gap: 16px;">
+  <img src="screenshots/image.png" alt="Image Analysis Screenshot" width="300"/>
+  <img src="screenshots/chat.png" alt="Chat Interface Screenshot" width="300"/>
+</div>
+
 
 An Android application that provides advanced image analysis and conversational AI capabilities powered by Google's Gemini AI.
 
