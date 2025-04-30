@@ -2,6 +2,7 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <layer-list>
+            <!-- Background shape -->
             <item>
                 <shape android:shape="rectangle">
                     <solid android:color="@android:color/transparent"/>
@@ -11,8 +12,14 @@
                         android:color="@color/white"/>
                 </shape>
             </item>
-            <item android:right="8dp">
-                <vector android:width="24dp"
+            <!-- Dropdown arrow - better positioned -->
+            <item
+                android:gravity="end|center_vertical"
+                android:right="8dp"
+                android:width="24dp"
+                android:height="24dp">
+                <vector
+                    android:width="24dp"
                     android:height="24dp"
                     android:viewportWidth="24"
                     android:viewportHeight="24"
